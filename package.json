@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/geraldy1st/split-landing-page/issues"
   },
-  "homepage": "https://github.com/geraldy1st/split-landing-page#readme",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
