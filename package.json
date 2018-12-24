@@ -1,0 +1,24 @@
+{
+  "name": "splitlp",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "homepage": "https://geraldy1st.github.io/split-landing-page",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ../"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldy1st/split-landing-page.git"
+  },
+  "author": "Geraldy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geraldy1st/split-landing-page/issues"
+  },
+  "homepage": "https://github.com/geraldy1st/split-landing-page#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
