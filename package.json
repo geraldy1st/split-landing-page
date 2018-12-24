@@ -6,7 +6,7 @@
   "homepage": "https://geraldy1st.github.io/split-landing-page",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d ../"
+    "deploy": "gh-pages -d ../splitLp"
   },
   "repository": {
     "type": "git",
