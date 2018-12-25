@@ -66,7 +66,7 @@ h1 {
 }
 .split.left {
   left: 0;
-  background: url(https://images.pexels.com/photos/1327214/pexels-photo-1327214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+  background: url(https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
     center center no-repeat;
   background-size: cover;
 }
@@ -122,7 +122,6 @@ h1 {
   }
   .left:hover {
     width: 100%;
-    transform: scale(1.1);
   }
   .right {
     position: inherit;
@@ -130,13 +129,20 @@ h1 {
   }
   .right:hover {
     width: 100%;
-    transform: scale(1.05);
   }
   .hover-right .left {
     width: 100%;
   }
   .hover-left .right {
     width: 100%;
+  }
+  .split.left .button:hover {
+    background-color: inherit;
+    border-color: inherit;
+  }
+  .split.right .button:hover {
+    background-color: var(--right-button-hover-color);
+    border-color: var(--right-button-hover-color);
   }
 
   h1 {
